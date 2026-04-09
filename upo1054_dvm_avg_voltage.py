@@ -1,6 +1,8 @@
 """
 Capture a set of DC voltage readings from a UNI-T UPO1054 oscilloscope in DVM mode over PyVISA,
 then write timestamps and voltage values to CSV and print the average voltage.
+
+As implemented, currently requires TCP/IP connection between the UPO1054 and the host for resource acquisition.
 """
 
 import pyvisa
